@@ -36,7 +36,7 @@ describe('Basics JavaScript concepts', () => {
     });
   });
 
-  describe('About Truthyness', () => {
+  xdescribe('About Truthyness', () => {
     it('truthyness of positive numbers', () => {
       const oneIsTruthy = 1 ? true : false;
       expect(oneIsTruthy).toEqual(true);
