@@ -1,6 +1,6 @@
 let __ = undefined;
 
-describe('typeof...', () => {
+xdescribe('typeof...', () => {
   it('object, number, boolean, string, function...', () => {
     expect(typeof {}).toEqual("object");
     expect(typeof []).toEqual("object");
